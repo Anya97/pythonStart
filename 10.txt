@@ -1,0 +1,10 @@
+health1 = 350
+health2 = 250
+def attack(person1, person2):
+    damage1 = 50
+    damage2 = 150
+    dct = {name1: health1-damage1, name2: health2-damage2}
+    return dct
+name1 = input('¬ведите им€ первого игрока: ')
+name2 = input('¬ведите им€ второго игрока: ')
+print(attack(name1, name2))

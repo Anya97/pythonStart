@@ -1,0 +1,12 @@
+name = input('¬ведите ваше им€: ')
+surname = input('¬ведите вашу фамилию: ')
+age = int(input('¬ведите ваш возраст: '))
+weight = int(input('¬ведите ваш вес: '))
+if age <= 30 and 50 <= weight <= 120:
+    print(str(name) + ' ' + str(surname) + ', ' + str(age) + ' год' + ', ' + 'вес ' + str(weight) + ' - хорошее состо€ние')
+elif 30 < age <= 40:
+    if weight < 50 or weight > 120:
+        print(str(name) + ' ' + str(surname) + ', ' + str(age) + ' год' + ', ' + 'вес ' + str(weight) + ' - следует зан€тьс€ собой')
+elif age > 40:
+    if weight < 50 or weight > 120:
+        print(str(name) + ' ' + str(surname) + ', ' + str(age) + ' год' + ', ' + 'вес ' + str(weight) + ' - следует обратитс€ к врачу!')

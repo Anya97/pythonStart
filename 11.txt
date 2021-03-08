@@ -1,0 +1,19 @@
+health1 = 350
+health2 = 250
+def attack(person1, person2):
+    damage1 = 50
+    damage2 = 150
+    min1 = health1-damage1
+    min2 = health2-damage2
+    dct = {name1: min1, name2: min2}
+#    return dct
+    def armr_pers(armor):
+        arm1 = damage1 / armor
+        arm2 = damage2 / armor
+        dct = {name1: min1 - arm1, name2: min2 - arm2}
+        return dct
+    print(armr_pers(armor))
+name1 = input('¬ведите им€ первого игрока: ')
+name2 = input('¬ведите им€ второго игрока: ')
+armor = 1.2
+attack(name1, name2)

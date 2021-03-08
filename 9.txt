@@ -1,0 +1,11 @@
+number = []
+def numbers(number):
+    return max(number)
+
+a = input('¬ведите первое число: ')
+number.append(a)
+b = input('¬ведите второе число: ')
+number.append(b)
+c = input('¬ведите третье число: ')
+number.append(c)
+print(numbers(number))
